@@ -1,0 +1,90 @@
+@keyframes color {
+
+    0%{
+        background-color: red;
+        trasform: scale(1);
+
+    }
+
+    50%{
+        background-color: rgb(0, 102, 255);
+        trasform: scale(1.2);
+
+    }
+
+    100%{
+
+        background-color: rgb(0, 255, 115);
+        trasform: scale(1);
+
+    }
+
+ }
+
+
+*{
+
+    
+    margin: 0;
+    padding: 0;    
+
+
+}
+
+body{
+
+background-color: gray;
+
+}
+
+
+
+
+
+
+
+.titulo1 { 
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 10%;
+
+}
+
+.mitad2 {
+
+    margin-top: 5%;
+    margin-left: 2%;
+
+}
+
+.keyframeTarjeta{
+
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    animation-name: color;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    box-shadow: 10px black;
+    
+
+}
+
+
+.keyframeTarjeta h3{
+
+    color: aliceblue;
+    padding: 2px;
+    margin: 2px;
+
+}
+
+.keyframeTarjeta img{
+
+    
+    width: fit-content;
+    justify-content: center;
+
+
+}
